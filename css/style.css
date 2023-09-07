@@ -1,0 +1,55 @@
+#export-btn {
+  background-color: #01DFA5;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#filename {
+
+  color: #01DFA5;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+#filename:focus{
+  border: 2px solid #01DFA5;
+  color:#01DFA5;
+  outline: none;
+}
+.cell-row {
+  display: flex;
+}
+
+.cell {
+  width: 10%;
+  border: 1px solid lightgray;
+  height: 40px;
+  outline: none;
+  box-sizing: border-box;
+}
+#spreadsheet-container > .cell-row > div.cell.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.cell.header {
+  text-align: center;
+  background: #01DFA5;
+}
+
+.cell.header.active {
+  background: greenyellow;
+  color: white;
+}
+
+.cell:focus {
+  border: 3px solid greenyellow;
+}
+
+
+
